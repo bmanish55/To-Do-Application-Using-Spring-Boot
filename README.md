@@ -32,18 +32,18 @@ It allows users to add, mark as completed, and delete tasks — with smooth anim
 - Spring Boot DevTools (Optional, for live reload)
 
 ---
-## **Configurations
+## Configurations
 
-## **1. Create a database in MySQL:
+1. Create a database in MySQL:
 - CREATE DATABASE todo-app;
 
-## **2. Update your application.properties file:
+2. Update your application.properties file:
 - spring.datasource.url=jdbc:mysql://localhost:3306/todo-app
 - spring.datasource.username=YOUR_DB_USERNAME
 - spring.datasource.password=YOUR_DB_PASSWORD
 - spring.jpa.hibernate.ddl-auto=update
 
-## **3. Build & Run
+3. Build & Run
 - mvn spring-boot:run   
 
 ---
